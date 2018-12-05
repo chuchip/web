@@ -10,11 +10,11 @@ Una vez tengamos creado nuestro proyecto, deberemos hacer al menos un  **push**.
 
 Ahora, para especificar que queremos tener una pagina web para nuestro proyecto,  iremos a "**Settings**"
 
-![Settings en GithHub](./captura1.png)
+![Settings en GithHub](./_captura1.png)
 
 y bajaremos hasta que veamos la sección: **GitHub Pages**
 
-![Settings en GithHub](./captura2.png)
+![Settings en GithHub](./_captura2.png)
 
 
 Ahora eligiremos el branch (es decir, la rama) donde estara nuestra pagina web. Para empezar simplemente usar el valor que aparece por defecto: **master branch**. El tema de _'ramas'_ es ampliamente utilizado en GIT pero si solo queremos hacer una pagina web no necesitamos crear ninguna.
