@@ -10,11 +10,11 @@ Una vez tengamos creado nuestro proyecto, deberemos hacer al menos un  **push**.
 
 Ahora, para especificar que queremos tener una pagina web para nuestro proyecto,  iremos a "**Settings**"
 
-![Settings en GithHub](./_captura1.png)
+![Settings en GithHub](https://raw.githubusercontent.com/chuchip/web/master/_captura1.png)
 
 y bajaremos hasta que veamos la sección: **GitHub Pages**
 
-![Settings en GithHub](./_captura2.png)
+![Settings en GithHub](https://raw.githubusercontent.com/chuchip/web/master/_captura2.png)
 
 
 Ahora eligiremos el branch (es decir, la rama) donde estara nuestra pagina web. Para empezar simplemente usar el valor que aparece por defecto: **master branch**. El tema de _'ramas'_ es ampliamente utilizado en GIT pero si solo queremos hacer una pagina web no necesitamos crear ninguna.
@@ -29,9 +29,17 @@ Tenemos dos formas de crear nuestra pagina web
 - Utilizando un _tema_ 
 - Sin plantilla para lo cual tendremos un fichero **index.html**.
 
+##Trabajando con un tema
+
 Si elegimos usar un _tema_ lo que se mostrara sera el fichero **readme.md** que tengamos, maquetado según el _tema_ elegido.
 En este fichero **readme.md** podremos usar el lenguaje de maquetado [MarkDown](https://es.wikipedia.org/wiki/Markdown) con el que podremos poner imagenes, formatear nuestro texto (poner negritas, cursiva, etc), poner enlaces, etc.
 
+Si queremos poner imagenes deberemos tener en cuenta que los enlaces deberan ser del tipo:
+
+`https://raw.githubusercontent.com/USUARIO/web/master/IMAGEN_A_MOSTRAR`
+
+
+##Pagina web estatica
 
 Si hemos creado  un fichero **index.html**, este fichero se utilizara como página inicial de nuestra página web.
 
