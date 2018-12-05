@@ -1,4 +1,4 @@
-# Pagina Web en GitHub
+#<center>Pagina Web en GitHub</center>
 
 Lo primero es crear nuestro proyecto en [GitHub](https://www.github.com), para lo cual deberemos estar registrados. 
 
@@ -10,11 +10,11 @@ Una vez tengamos creado nuestro proyecto, deberemos hacer al menos un  **push**.
 
 Ahora, para especificar que queremos tener una pagina web para nuestro proyecto,  iremos a "**Settings**"
 
-![Settings en GithHub](https://raw.githubusercontent.com/chuchip/web/master/_captura1.png)
+![Settings en GithHub](./_captura1.png)
 
 y bajaremos hasta que veamos la sección: **GitHub Pages**
 
-![Settings en GithHub](https://raw.githubusercontent.com/chuchip/web/master/_captura2.png)
+![Settings en GithHub](./_captura2.png)
 
 
 Ahora eligiremos el branch (es decir, la rama) donde estara nuestra pagina web. Para empezar simplemente usar el valor que aparece por defecto: **master branch**. El tema de _'ramas'_ es ampliamente utilizado en GIT pero si solo queremos hacer una pagina web no necesitamos crear ninguna.
@@ -34,14 +34,20 @@ Tenemos dos formas de crear nuestra pagina web
 Si elegimos usar un _tema_ lo que se mostrara sera el fichero **readme.md** que tengamos, maquetado según el _tema_ elegido.
 En este fichero **readme.md** podremos usar el lenguaje de maquetado [MarkDown](https://es.wikipedia.org/wiki/Markdown) con el que podremos poner imagenes, formatear nuestro texto (poner negritas, cursiva, etc), poner enlaces, etc.
 
-Si queremos poner imagenes deberemos tener en cuenta que los enlaces deberan ser del tipo:
-
-`https://raw.githubusercontent.com/USUARIO/web/master/IMAGEN_A_MOSTRAR`
+Para poner enlaces  a las imagenes se podra usar el formato: `./IMAGEN_A_ENLAZAR`
 
 
 ##Pagina web estatica
 
 Si hemos creado  un fichero **index.html**, este fichero se utilizara como página inicial de nuestra página web.
+
+Todas las referencias a imagenes, ficheros *CSS*  o ficheros javascript que queramos poner deberan ser con el formato:
+
+`https://raw.githubusercontent.com/USUARIO/web/master/IMAGEN_A_MOSTRAR`
+
+Es decir si el usuario es 'chuchip' y el proyecto se llama web, todas las referencias a imagenes deberan ser:
+
+https://raw.githubusercontent.com/chuchip/web/master/
 
 Aclarar que si tenemos el fichero **index.html** no utilizara el _tema_ ni se vera el fichero **readme.md**
 
