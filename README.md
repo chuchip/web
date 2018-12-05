@@ -1,4 +1,4 @@
-#<center>Pagina Web en GitHub</center>
+#Pagina Web en GitHub
 
 Lo primero es crear nuestro proyecto en [GitHub](https://www.github.com), para lo cual deberemos estar registrados. 
 
