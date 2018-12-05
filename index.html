@@ -2,8 +2,8 @@
 <html>
 <head>
 <meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
-<title>README</title></head>
-<body><h1><center>Pagina Web en GitHub</center></h1>
+<title>pepe</title></head>
+<body><h1>Pagina Web en GitHub</h1>
 <p>Lo primero es crear nuestro proyecto en <a href='https://www.github.com'>GitHub</a>, para lo cual deberemos estar registrados. </p>
 <p>Estos pasos son muy sencillos pero teneis que tener al menos ciertas nociones basicas de <a href='https://git-scm.com/book/es/v2'>Git</a> pues se utilizara esta herramienta para subir los ficheros que formaran la pagina web.</p>
 <p>Teneis muchos videos y manuales que explican como crear una página web, uno donde se explica incluso como crear la página web lo teneis en <a href='https://devcode.la/tutoriales/publicar-tu-web-usando-github-pages/'>devCode.la</a></p>
@@ -24,15 +24,21 @@
 <p>##Trabajando con un tema</p>
 <p>Si elegimos usar un <em>tema</em> lo que se mostrara sera el fichero <strong>readme.md</strong> que tengamos, maquetado según el <em>tema</em> elegido.
 En este fichero <strong>readme.md</strong> podremos usar el lenguaje de maquetado <a href='https://es.wikipedia.org/wiki/Markdown'>MarkDown</a> con el que podremos poner imagenes, formatear nuestro texto (poner negritas, cursiva, etc), poner enlaces, etc.</p>
-<p>Si queremos poner imagenes deberemos tener en cuenta que los enlaces deberan ser del tipo:</p>
-<p><code>https://raw.githubusercontent.com/USUARIO/web/master/IMAGEN_A_MOSTRAR</code></p>
+<p>Para poner enlaces  a las imagenes se podra usar el formato: <code>./IMAGEN_A_ENLAZAR</code></p>
 <p>##Pagina web estatica</p>
 <p>Si hemos creado  un fichero <strong>index.html</strong>, este fichero se utilizara como página inicial de nuestra página web.</p>
+<p>Todas las referencias a imagenes, ficheros <em>CSS</em>  o ficheros javascript que queramos poner deberan ser con el formato:</p>
+<p><code>https://raw.githubusercontent.com/USUARIO/web/master/IMAGEN_A_MOSTRAR</code></p>
+<p>Es decir si el usuario es &#39;chuchip&#39; y el proyecto se llama web, todas las referencias a imagenes deberan ser:</p>
+<p><a href='https://raw.githubusercontent.com/chuchip/web/master/' target='_blank' class='url'>https://raw.githubusercontent.com/chuchip/web/master/</a></p>
+<p>
+
+
+<p><a href='./pagina2.html'>Ejemplo de enlace a otra pagina en github</a></p>
+<h2>Notas</h2>
 <p>Aclarar que si tenemos el fichero <strong>index.html</strong> no utilizara el <em>tema</em> ni se vera el fichero <strong>readme.md</strong></p>
 <p>Otra cosa a tener en cuenta que a GitHub le cuesta un poco (menos de un minuto), refrescar la pagina web desde el ultimo <em>push</em></p>
 <p>Y con esto ya tendreis vuestra pagina web alojada gratuitamente. </p>
 <p>Ah, y ademas, sera visible bajo el protocolo https (es decir con seguridad) pues github lo provee automaticamente.</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
 </body>
 </html>
