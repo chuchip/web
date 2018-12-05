@@ -1,12 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Web Prueba</title>
-</head>
-<body>
-    Pagina de prueba para dominio en github
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title>README</title></head>
+<body><h1>Pagina Web en GitHub</h1>
+<p>Lo primero es crear nuestro proyecto en <a href='https://www.github.com'>GitHub</a>, para lo cual deberemos estar registrados. </p>
+<p>Estos pasos son muy sencillos pero teneis que tener al menos ciertas nociones basicas de <a href='https://git-scm.com/book/es/v2'>Git</a> pues se utilizara esta herramienta para subir los ficheros que formaran la pagina web.</p>
+<p>Teneis muchos videos y manuales que explican como crear una página web, uno donde se explica incluso como crear la página web lo teneis en <a href='https://devcode.la/tutoriales/publicar-tu-web-usando-github-pages/'>devCode.la</a></p>
+<p>Una vez tengamos creado nuestro proyecto, deberemos hacer al menos un  <strong>push</strong>. Es decir subir a <strong>GitHub</strong> al menos un fichero.</p>
+<p>Ahora, para especificar que queremos tener una pagina web para nuestro proyecto,  iremos a &quot;<strong>Settings</strong>&quot;</p>
+<p><img src='https://raw.githubusercontent.com/chuchip/web/master/_captura1.png' alt='Settings en GithHub' referrerPolicy='no-referrer' /></p>
+<p>y bajaremos hasta que veamos la sección: <strong>GitHub Pages</strong></p>
+<p><img src='https://raw.githubusercontent.com/chuchip/web/master/_captura2.png' alt='Settings en GithHub' referrerPolicy='no-referrer' /></p>
+<p>Ahora eligiremos el branch (es decir, la rama) donde estara nuestra pagina web. Para empezar simplemente usar el valor que aparece por defecto: <strong>master branch</strong>. El tema de <em>&#39;ramas&#39;</em> es ampliamente utilizado en GIT pero si solo queremos hacer una pagina web no necesitamos crear ninguna.</p>
+<p>Ahora deberemos elegir que <em>tema</em> vamos a utilizar para nuestra pagina web. Aunque tenemos la opción de no utilizarlo como explico más adelante, pero <strong>es obligatorio</strong> elegir un <em>tema</em>.</p>
+<p>Tenemos la opción de tener un dominio propio tipo <strong><a href='http://www.midominio.com' target='_blank' class='url'>www.midominio.com</a></strong>, el cual, logicamente, deberemos tener registrado previamente. Si no tenemos un dominio propio nuestra pagina web sera visible bajo el dominio: <a href='http://USUARIO.github.com/PROYECTO' target='_blank' class='url'>http://USUARIO.github.com/PROYECTO</a></p>
+<p>Tenemos dos formas de crear nuestra pagina web</p>
+<ul>
+<li>Utilizando un <em>tema</em> </li>
+<li>Sin plantilla para lo cual tendremos un fichero <strong>index.html</strong>.</li>
+
+</ul>
+<p>##Trabajando con un tema</p>
+<p>Si elegimos usar un <em>tema</em> lo que se mostrara sera el fichero <strong>readme.md</strong> que tengamos, maquetado según el <em>tema</em> elegido.
+En este fichero <strong>readme.md</strong> podremos usar el lenguaje de maquetado <a href='https://es.wikipedia.org/wiki/Markdown'>MarkDown</a> con el que podremos poner imagenes, formatear nuestro texto (poner negritas, cursiva, etc), poner enlaces, etc.</p>
+<p>Si queremos poner imagenes deberemos tener en cuenta que los enlaces deberan ser del tipo:</p>
+<p><code>https://raw.githubusercontent.com/USUARIO/web/master/IMAGEN_A_MOSTRAR</code></p>
+<p>##Pagina web estatica</p>
+<p>Si hemos creado  un fichero <strong>index.html</strong>, este fichero se utilizara como página inicial de nuestra página web.</p>
+<p>Aclarar que si tenemos el fichero <strong>index.html</strong> no utilizara el <em>tema</em> ni se vera el fichero <strong>readme.md</strong></p>
+<p>Otra cosa a tener en cuenta que a GitHub le cuesta un poco (menos de un minuto), refrescar la pagina web desde el ultimo <em>push</em></p>
+<p>Y con esto ya tendreis vuestra pagina web alojada gratuitamente. </p>
+<p>Ah, y ademas, sera visible bajo el protocolo https (es decir con seguridad) pues github lo provee automaticamente.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 </body>
 </html>
