@@ -30,6 +30,8 @@ Tenemos dos formas de crear nuestra pagina web
 - Sin plantilla para lo cual tendremos un fichero **index.html**.
 
 Si elegimos usar un _tema_ lo que se mostrara sera el fichero **readme.md** que tengamos, maquetado según el _tema_ elegido.
+En este fichero **readme.md** podremos usar el lenguaje de maquetado [MarkDown](https://es.wikipedia.org/wiki/Markdown) con el que podremos poner imagenes, formatear nuestro texto (poner negritas, cursiva, etc), poner enlaces, etc.
+
 
 Si hemos creado  un fichero **index.html**, este fichero se utilizara como página inicial de nuestra página web.
 
